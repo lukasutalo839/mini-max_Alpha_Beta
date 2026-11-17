@@ -22,4 +22,5 @@ py index.py --racunalo
 
 ```
 **2. Čovjek igra prvi (kao x, računalo igra kao o):**
-```py index.py --covjek```
+```bash 
+py index.py --covjek```
