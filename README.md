@@ -12,11 +12,6 @@ Konzolna implementacija igre Križić-kružić (Tic-Tac-Toe) u Pythonu protiv ne
 
 Dodavanjem `alpha` i `beta` granica algoritam rano odbacuje grane stabla koje ne mogu utjecati na konačnu odluku, čime se drastično smanjuje broj evaluiranih stanja na prvom potezu (kada je ploča potpuno prazna):
 
-| Algoritam | Obiđeni čvorovi (1. potez) | Smanjenje pretrage |
-| :--- | :---: | :---: |
-| Čisti Minimax | ~549.946 | — |
-| Minimax + Alpha-Beta | ~18.000 – 21.000 | ~96 % |
-
 ## Pokretanje programa
 
 Projekt koristi isključivo ugrađene Python biblioteke (`sys`, `math`, `time`) i ne zahtijeva instalaciju dodatnih paketa.
