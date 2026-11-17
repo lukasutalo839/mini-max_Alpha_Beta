@@ -19,3 +19,6 @@ Projekt koristi isključivo ugrađene Python biblioteke (`sys`, `math`, `time`) 
 **1. Računalo igra prvo (kao `x`):**
 ```bash
 py index.py --racunalo
+
+**2. Čovjek igra prvi (kao x, računalo igra kao o):**
+py index.py --covjek
